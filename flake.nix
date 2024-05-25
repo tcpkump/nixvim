@@ -41,6 +41,7 @@
           packages = {
             # Lets you run `nix run .` to start nixvim
             default = nvim;
+            lazygit = pkgs.legacyPackages.${system}.lazygit;
           };
         };
     };

@@ -19,6 +19,7 @@
     ./lualine.nix
     ./neo-tree.nix
     ./none-ls.nix
+    ./obsidian.nix
     ./options.nix
     ./python-venv.nix
     ./smart-splits.nix

@@ -4,6 +4,7 @@
     updatetime = 100;
 
     spell = false;
+    conceallevel = 1;
 
     number = true;
     relativenumber = true;

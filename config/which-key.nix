@@ -8,6 +8,7 @@
       "<leader>c" = "Code actions";
       "<leader>g" = "Git";
       "<leader>w" = "Personal Wiki";
+      "<leader>t" = "Terraform";
     };
   };
 }

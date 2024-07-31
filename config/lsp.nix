@@ -20,7 +20,7 @@
       sqls.enable = true;
       terraformls.enable = true;
       tsserver.enable = true;
-      yamlls.enable = true;
+      yamlls.enable = false; # sick of fighting with it and helm
     };
     keymaps = {
       silent = true;

@@ -1,12 +1,8 @@
-{pkgs, ...}: {
+{
   plugins.gitsigns.enable = true;
-  extraPlugins = with pkgs.vimPlugins; [
-    lazygit-nvim
-  ];
-
-  extraConfigLua = ''
-    require("telescope").load_extension("lazygit")
-  '';
+  plugins.lazygit = {
+    enable = true;
+  };
 
   keymaps = [
     {

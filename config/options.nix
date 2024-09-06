@@ -18,6 +18,8 @@
     smartcase = true;
     wildmode = "list:longest";
 
+    wrap = false;
+
     swapfile = false;
     undofile = true;
 

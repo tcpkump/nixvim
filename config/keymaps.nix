@@ -25,6 +25,13 @@
     }
 
     {
+      key = "<leader>fg";
+      action = "<cmd>Telescope git_status<CR>";
+      options.desc = "Search modified files";
+      mode = "n";
+    }
+
+    {
       key = "<leader>fu";
       action = "<cmd>Telescope undo<CR>";
       options.desc = "Grep string in undotree";

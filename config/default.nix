@@ -20,6 +20,7 @@
     ./neo-tree.nix
     ./none-ls.nix
     ./options.nix
+    ./overseer.nix
     ./smart-splits.nix
     ./telescope.nix
     ./treesitter.nix

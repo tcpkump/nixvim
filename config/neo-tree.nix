@@ -22,4 +22,6 @@
       hint = 'floating-big-letter';
     })
   '';
+
+  plugins.web-devicons.enable = true;
 }

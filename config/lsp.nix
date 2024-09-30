@@ -12,6 +12,7 @@
       perlpls.enable = true;
       phpactor.enable = true;
       pyright.enable = true;
+      ruby-lsp.enable = true;
       rust-analyzer = {
         enable = true;
         installCargo = true;

@@ -9,7 +9,6 @@
       packer.package = null;
 
       puppet_lint.enable = true;
-      rubyfmt.enable = true;
 
       terraform_fmt.enable = true;
       terraform_fmt.package = null;
@@ -24,7 +23,6 @@
     sources.diagnostics = {
 
       puppet_lint.enable = true;
-      rubocop.enable = true;
 
       terraform_validate.enable = true;
       terraform_validate.package = null;

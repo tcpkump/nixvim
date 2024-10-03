@@ -1,16 +1,22 @@
 { pkgs, ... }: {
   plugins.neo-tree = {
     enable = true;
+    addBlankLineAtTop = true;
+    popupBorderStyle = "rounded";
+    sortCaseInsensitive = true;
     closeIfLastWindow = true;
     buffers.followCurrentFile.enabled = true;
     buffers.followCurrentFile.leaveDirsOpen = true;
-    filesystem.filteredItems.alwaysShow = [ 
-      ".gitignore"
-      ".gitattributes"
-      ".pre-commit-config.yaml"
-      ".terraform"
-      ".terraform.lock.hcl"
-    ];
+    filesystem = {
+      filteredItems.alwaysShow = [ 
+        ".gitignore"
+        ".gitattributes"
+        ".pre-commit-config.yaml"
+        ".terraform"
+        ".terraform.lock.hcl"
+      ];
+      useLibuvFileWatcher = true;
+    };
   };
 
   extraPlugins = with pkgs.vimPlugins; [ nvim-window-picker ];

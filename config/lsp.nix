@@ -10,7 +10,7 @@
       helm-ls.enable = true;
       jsonls.enable = true;
       nixd.enable = true;
-      perlpls.enable = true;
+      perlnavigator.enable = true;
       phpactor.enable = true;
       pyright.enable = true;
       ruby-lsp.enable = true;

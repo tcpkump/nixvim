@@ -5,7 +5,6 @@
       ansiblels.enable = true;
       bashls.enable = true;
       dockerls.enable = true;
-      gdscript.enable = true;
       gopls.enable = true;
       helm-ls.enable = true;
       jsonls.enable = true;

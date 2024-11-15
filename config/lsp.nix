@@ -6,21 +6,21 @@
       bashls.enable = true;
       dockerls.enable = true;
       gopls.enable = true;
-      helm-ls.enable = true;
+      helm_ls.enable = true;
       jsonls.enable = true;
       nixd.enable = true;
       perlnavigator.enable = true;
       phpactor.enable = true;
       pyright.enable = true;
-      ruby-lsp.enable = true;
-      rust-analyzer = {
+      ruby_lsp.enable = true;
+      rust_analyzer = {
         enable = true;
         installCargo = true;
         installRustc = true;
       };
       sqls.enable = true;
       terraformls.enable = true;
-      ts-ls.enable = true;
+      ts_ls.enable = true;
       yamlls.enable = false; # sick of fighting with it and helm
     };
     keymaps = {

@@ -10,6 +10,7 @@
 
     ./colorizer.nix
     ./colorscheme.nix
+    ./cursor.nix
     ./git.nix
     ./helm.nix
     ./hover.nix

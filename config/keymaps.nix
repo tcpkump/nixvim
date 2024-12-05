@@ -40,5 +40,19 @@
       action = "<cmd>w<CR>";
       options.desc = "Save file";
     }
+
+    {
+      key = "n";
+      action = "nzzzv";
+      options.desc = "Move to next search result and center";
+      mode = "n";
+    }
+
+    {
+      key = "N";
+      action = "Nzzzv";
+      options.desc = "Move to previous search result and center";
+      mode = "n";
+    }
   ];
 }

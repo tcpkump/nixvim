@@ -11,6 +11,7 @@
     ./colorizer.nix
     ./colorscheme.nix
     ./cursor.nix
+    ./find-replace.nix
     ./git.nix
     ./helm.nix
     ./hover.nix

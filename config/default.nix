@@ -10,7 +10,9 @@
 
     ./colorizer.nix
     ./colorscheme.nix
+    ./conform-nvim.nix
     ./cursor.nix
+    ./filetypes.nix
     ./find-replace.nix
     ./git.nix
     ./helm.nix

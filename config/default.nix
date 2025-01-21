@@ -28,6 +28,5 @@
     ./treesitter.nix
     ./trouble.nix
     ./welcome.nix
-    ./wiki.nix
   ];
 }

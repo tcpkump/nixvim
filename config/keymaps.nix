@@ -31,12 +31,6 @@
     }
 
     {
-      key = "<leader>p";
-      action = "\"+p";
-      options.desc = "Paste and yank to system clipboard";
-    }
-
-    {
       key = "<C-s>";
       action = "<cmd>w<CR>";
       options.desc = "Save file";

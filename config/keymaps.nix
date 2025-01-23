@@ -13,9 +13,9 @@
 
     {
       key = "p";
-      action = "\"_dP";
-      options.desc = "Paste without yanking";
-      mode = "v";
+      action = "p:let @+=@0<CR>";
+      options.desc = "Paste and preserve register";
+      mode = "x";
     }
 
     {

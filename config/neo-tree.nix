@@ -9,8 +9,10 @@
     buffers.followCurrentFile.leaveDirsOpen = true;
     filesystem = {
       filteredItems.alwaysShow = [ 
-        ".gitignore"
         ".gitattributes"
+        ".gitea"
+        ".github"
+        ".gitignore"
         ".pre-commit-config.yaml"
         ".terraform"
         ".terraform.lock.hcl"

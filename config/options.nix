@@ -18,6 +18,8 @@
     smartcase = true;
     wildmode = "list:longest";
 
+    smartindent = true;
+
     wrap = false;
 
     swapfile = false;

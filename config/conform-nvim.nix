@@ -9,6 +9,7 @@
       formatters_by_ft = {
         terraform = ["terraform_fmt"];
         "terraform-vars" = ["terraform_fmt"];
+        hcl = ["hcl"];
       };
     };
   };

@@ -10,10 +10,6 @@
 
       # puppet_lint.enable = true;
 
-      terragrunt_fmt.enable = true;
-
-      hclfmt.enable = true;
-
       goimports.enable = true;
       gofmt.enable = true;
     };

@@ -25,12 +25,16 @@
           nixvimModule = {
             inherit pkgs;
             module = import ./config; # import the module directly
-            # You can use `extraSpecialArgs` to pass additional arguments to your module files
-            extraSpecialArgs = {
-              # inherit (inputs) foo;
-            };
+            extraSpecialArgs = { };
           };
+
           nvim = nixvim'.makeNixvimWithModule nixvimModule;
+
+          # Add extra dependencies here
+          dependencies = with pkgs; [
+            lazygit
+            hclfmt
+          ];
         in
         {
           checks = {
@@ -42,6 +46,20 @@
             # Lets you run `nix run .` to start nixvim
             default = nvim;
           };
+
+          devShells.default = pkgs.mkShell {
+            buildInputs = dependencies;
+          };
+
+          # Ensure nixvim has the required dependencies
+          apps.default = {
+            type = "app";
+            program = "${pkgs.writeShellScriptBin "nixvim" ''
+              export PATH="${pkgs.lib.makeBinPath dependencies}:$PATH"
+              exec ${nvim}/bin/nvim "$@"
+            ''}/bin/nixvim";
+          };
         };
     };
 }
+

@@ -34,6 +34,7 @@
           dependencies = with pkgs; [
             lazygit
             hclfmt
+            tenv
           ];
         in
         {

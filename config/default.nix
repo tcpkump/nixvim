@@ -2,7 +2,6 @@
   imports = [
     ./completion/cmp.nix
     ./completion/copilot.nix
-    ./completion/nvim-autopairs.nix
 
     ./motion/harpoon.nix
     ./motion/surround.nix

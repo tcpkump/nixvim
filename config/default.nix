@@ -4,7 +4,6 @@
     ./completion/copilot.nix
 
     ./motion/harpoon.nix
-    ./motion/surround.nix
 
     ./colorizer.nix
     ./colorscheme.nix

@@ -9,7 +9,9 @@
       formatters_by_ft = {
         terraform = ["terraform_fmt"];
         "terraform-vars" = ["terraform_fmt"];
-        hcl = ["hcl"];
+        hcl = ["hcl" "packer_fmt"];
+        puppet = ["puppet-lint"];
+        go = ["gofmt" "goimports"];
       };
     };
   };

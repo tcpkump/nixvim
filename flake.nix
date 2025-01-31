@@ -8,7 +8,7 @@
   };
 
   outputs =
-    { nixvim, flake-parts, ... }@inputs:
+    { nixpkgs, nixvim, flake-parts, ... }@inputs:
     flake-parts.lib.mkFlake { inherit inputs; } {
       systems = [
         "x86_64-linux"
@@ -18,8 +18,12 @@
       ];
 
       perSystem =
-        { pkgs, system, ... }:
+        { system, ... }:
         let
+          pkgs = import nixpkgs {
+            inherit system;
+            config.allowUnfree = true; # Enable unfree packages
+          };
           nixvimLib = nixvim.lib.${system};
           nixvim' = nixvim.legacyPackages.${system};
           nixvimModule = {
@@ -35,6 +39,8 @@
             lazygit
             hclfmt
             tenv
+            packer
+            puppet-lint
           ];
         in
         {

@@ -4,7 +4,6 @@
     ./completion/copilot.nix
     ./completion/nvim-autopairs.nix
 
-    ./motion/comment.nix
     ./motion/harpoon.nix
     ./motion/surround.nix
 
@@ -21,6 +20,7 @@
     ./keymaps.nix
     ./lsp.nix
     ./lualine.nix
+    ./mini.nix
     ./neo-tree.nix
     ./none-ls.nix
     ./options.nix

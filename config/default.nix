@@ -5,6 +5,7 @@
 
     ./motion/harpoon.nix
 
+    ./autocommands.nix
     ./colorizer.nix
     ./colorscheme.nix
     ./conform-nvim.nix

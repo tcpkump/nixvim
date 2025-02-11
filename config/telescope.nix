@@ -9,6 +9,13 @@
 
   keymaps = [
     {
+      key = "<leader>:";
+      action = "<cmd>Telescope command_history<CR>";
+      options.desc = "Search command history";
+      mode = "n";
+    }
+
+    {
       key = "<leader>ff";
       action = "<cmd>Telescope find_files<CR>";
       options.desc = "Find string in filenames";

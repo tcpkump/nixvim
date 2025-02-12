@@ -23,16 +23,16 @@
     }
 
     {
-      key = "<leader>fw";
-      action = "<cmd>Telescope live_grep_args<CR>";
-      options.desc = "Grep string in files";
+      key = "<leader>fo";
+      action = "<cmd>Telescope oldfiles<CR>";
+      options.desc = "Find recently opened files";
       mode = "n";
     }
 
     {
-      key = "<leader>fg";
-      action = "<cmd>Telescope git_status<CR>";
-      options.desc = "Search modified files";
+      key = "<leader>fw";
+      action = "<cmd>Telescope live_grep_args<CR>";
+      options.desc = "Grep string in files";
       mode = "n";
     }
 
@@ -49,5 +49,14 @@
       options.desc = "Find references";
       mode = "n";
     }
+
+    {
+      key = "<leader>km";
+      action = "<cmd>Telescope keymaps<CR>";
+      options.desc = "Search keymaps";
+      mode = "n";
+    }
+
+    # git-related keymaps are in git.nix
   ];
 }

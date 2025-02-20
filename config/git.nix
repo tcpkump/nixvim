@@ -1,5 +1,10 @@
 {
-  plugins.gitsigns.enable = true;
+  plugins.gitsigns = {
+    enable = true;
+    settings = {
+      current_line_blame = true;
+    };
+  };
   plugins.lazygit = {
     enable = true;
   };

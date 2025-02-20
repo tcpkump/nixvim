@@ -28,7 +28,6 @@
           };
         };
         sources = [
-          {name = "copilot";}
           {name = "nvim_lsp";}
           {name = "luasnip";}
           {name = "calc";}

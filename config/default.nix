@@ -1,7 +1,6 @@
 {
   imports = [
     ./completion/cmp.nix
-    ./completion/copilot.nix
 
     ./motion/harpoon.nix
 

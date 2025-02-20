@@ -7,7 +7,6 @@
     conceallevel = 1;
 
     number = true;
-    relativenumber = true;
 
     expandtab = true;
     shiftwidth = 2;

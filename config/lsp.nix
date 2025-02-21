@@ -22,6 +22,7 @@
       terraformls.enable = true;
       ts_ls.enable = true;
       yamlls.enable = false; # sick of fighting with it and helm
+      zls.enable = true;
     };
     keymaps = {
       silent = true;

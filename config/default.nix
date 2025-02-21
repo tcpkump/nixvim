@@ -29,5 +29,6 @@
     ./treesitter.nix
     ./trouble.nix
     ./welcome.nix
+    ./zig.nix
   ];
 }

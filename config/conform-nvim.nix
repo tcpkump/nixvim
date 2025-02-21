@@ -12,6 +12,7 @@
         hcl = ["hcl" "packer_fmt"];
         puppet = ["puppet-lint"];
         go = ["gofmt" "goimports"];
+        zig = ["prettier"];
       };
     };
   };

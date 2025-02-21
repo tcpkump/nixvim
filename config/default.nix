@@ -24,6 +24,7 @@
     ./none-ls.nix
     ./options.nix
     ./overseer.nix
+    ./sleuth.nix
     ./smart-splits.nix
     ./telescope.nix
     ./treesitter.nix

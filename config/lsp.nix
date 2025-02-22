@@ -4,6 +4,7 @@
     servers = {
       ansiblels.enable = true;
       bashls.enable = true;
+      clangd.enable = true;
       dockerls.enable = true;
       gopls.enable = true;
       helm_ls.enable = true;

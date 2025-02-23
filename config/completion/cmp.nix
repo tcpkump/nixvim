@@ -31,11 +31,8 @@
           {name = "nvim_lsp";}
           {name = "luasnip";}
           {name = "calc";}
-          {name = "emoji";}
           {name = "treesitter";}
-          {name = "nerdfont";}
-          {name = "git";}
-          {name = "fuzzy-path";}
+          {name = "fuzzy_path";}
           {name = "path";}
           {name = "buffer";}
         ];
@@ -44,12 +41,11 @@
           "<C-j>" = "cmp.mapping.select_next_item()";
           "<C-k>" = "cmp.mapping.select_prev_item()";
           "<C-e>" = "cmp.mapping.abort()";
-          "<C-b>" = "cmp.mapping.scroll_docs(-4)";
-          "<C-f>" = "cmp.mapping.scroll_docs(4)";
           "<CR>" = "cmp.mapping.confirm({ select = false })";
           "<S-CR>" = "cmp.mapping.confirm({ behavior = cmp.ConfirmBehavior.Replace, select = true })";
         };
       };
     };
+    cmp-fuzzy-path.enable = true;
   };
 }

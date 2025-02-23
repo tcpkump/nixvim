@@ -4,6 +4,7 @@
 
     ./motion/harpoon.nix
 
+    ./ai.nix
     ./autocommands.nix
     ./colorizer.nix
     ./colorscheme.nix

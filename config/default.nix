@@ -3,7 +3,6 @@
     ./completion/cmp.nix
 
     ./motion/harpoon.nix
-    ./motion/gitgud.nix
 
     ./autocommands.nix
     ./colorizer.nix

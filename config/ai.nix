@@ -37,7 +37,7 @@
         align = "center";
         rounded = true;
       };
-      width = 30;
+      width = 40;
       wrap = true;
     };
   };

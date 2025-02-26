@@ -2,15 +2,29 @@
   plugins.mini = {
     enable = true;
     modules = {
-      ai = {};
-      comment = {};
+      ai = { };
+      comment = { };
       pairs = {
         mappings = {
-          "`" = { action = "closeopen"; pair = "``"; neigh_pattern = "[^\\`]."; register = { cr = false; }; };
-          "\"" = { action = "closeopen"; pair = "\"\""; neigh_pattern = "[^\\\"]."; register = { cr = false; }; };
+          "`" = {
+            action = "closeopen";
+            pair = "``";
+            neigh_pattern = "[^\\`].";
+            register = {
+              cr = false;
+            };
+          };
+          "\"" = {
+            action = "closeopen";
+            pair = "\"\"";
+            neigh_pattern = "[^\\\"].";
+            register = {
+              cr = false;
+            };
+          };
         };
       };
-      surround = {};
+      surround = { };
     };
   };
 }

@@ -1,4 +1,5 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
   plugins.neo-tree = {
     enable = true;
     addBlankLineAtTop = true;
@@ -8,7 +9,7 @@
     buffers.followCurrentFile.enabled = true;
     buffers.followCurrentFile.leaveDirsOpen = true;
     filesystem = {
-      filteredItems.alwaysShow = [ 
+      filteredItems.alwaysShow = [
         ".gitattributes"
         ".gitea"
         ".github"

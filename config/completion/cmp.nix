@@ -28,13 +28,13 @@
           };
         };
         sources = [
-          {name = "nvim_lsp";}
-          {name = "luasnip";}
-          {name = "calc";}
-          {name = "treesitter";}
-          {name = "fuzzy_path";}
-          {name = "path";}
-          {name = "buffer";}
+          { name = "nvim_lsp"; }
+          { name = "luasnip"; }
+          { name = "calc"; }
+          { name = "treesitter"; }
+          { name = "fuzzy_path"; }
+          { name = "path"; }
+          { name = "buffer"; }
         ];
         mapping = {
           "<C-j>" = "cmp.mapping.select_next_item()";

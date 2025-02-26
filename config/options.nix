@@ -26,11 +26,10 @@
     splitbelow = true;
 
     guicursor = [
-        "n-v-c-sm:block"
-        "i-ci-ve:ver25"
-        "r-cr-o:hor20"
-        "i:blinkoff750-blinkon750-Cursor/lCursor" # insert mode: blinking settings
+      "n-v-c-sm:block"
+      "i-ci-ve:ver25"
+      "r-cr-o:hor20"
+      "i:blinkoff750-blinkon750-Cursor/lCursor" # insert mode: blinking settings
     ];
   };
 }
-

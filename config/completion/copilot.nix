@@ -1,11 +1,17 @@
 {
-  plugins.copilot-cmp = {
-    enable = true;
-  };
   plugins.copilot-lua = {
     enable = true;
     settings = {
-      suggestion.enabled = false;
+      suggestion = {
+        enabled = true;
+        auto_trigger = false;
+        keymap = {
+          accept = "<Tab>";
+          next = "<C-]>";
+          prev = false;
+          dismiss = "<C-c>";
+        };
+      };
       panel.enabled = false;
       filetypes = {
         yaml = true;

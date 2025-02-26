@@ -28,7 +28,6 @@
           };
         };
         sources = [
-          {name = "copilot";}
           {name = "nvim_lsp";}
           {name = "luasnip";}
           {name = "calc";}
@@ -38,7 +37,6 @@
           {name = "buffer";}
         ];
         mapping = {
-          "<Tab>" = "cmp.mapping(cmp.mapping.select_next_item(), {'i', 's'})";
           "<C-j>" = "cmp.mapping.select_next_item()";
           "<C-k>" = "cmp.mapping.select_prev_item()";
           "<C-e>" = "cmp.mapping.abort()";

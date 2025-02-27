@@ -27,6 +27,7 @@
     ./overseer.nix
     ./sleuth.nix
     ./smart-splits.nix
+    ./snacks.nix
     ./telescope.nix
     ./treesitter.nix
     ./trouble.nix

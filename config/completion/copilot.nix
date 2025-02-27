@@ -6,7 +6,7 @@
         enabled = true;
         auto_trigger = false;
         keymap = {
-          accept = "<Tab>";
+          accept = "<C-y>";
           next = "<C-]>";
           prev = false;
           dismiss = "<C-c>";

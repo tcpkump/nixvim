@@ -23,6 +23,7 @@
     ./mini.nix
     ./neo-tree.nix
     ./none-ls.nix
+    ./obsidian.nix
     ./options.nix
     ./overseer.nix
     ./sleuth.nix

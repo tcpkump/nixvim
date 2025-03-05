@@ -2,7 +2,6 @@
 {
   plugins.neo-tree = {
     enable = true;
-    addBlankLineAtTop = true;
     popupBorderStyle = "rounded";
     sortCaseInsensitive = true;
     closeIfLastWindow = true;

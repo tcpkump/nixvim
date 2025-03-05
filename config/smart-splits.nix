@@ -2,6 +2,10 @@
 {
   plugins.smart-splits = {
     enable = true;
+    autoLoad = true; # don't lazy load
+    settings = {
+      at_edge = "stop";
+    };
   };
 
   keymaps = [

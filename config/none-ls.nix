@@ -1,5 +1,5 @@
 {
-  plugins.lsp-format.enable = true;
+  plugins.lsp-format.enable = false;
   plugins.none-ls = {
     enable = true;
     sources.diagnostics = {

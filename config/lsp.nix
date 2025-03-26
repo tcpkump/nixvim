@@ -12,7 +12,6 @@
       nixd.enable = true;
       perlnavigator.enable = true;
       phpactor.enable = true;
-      pyright.enable = true;
       ruby_lsp.enable = true;
       rust_analyzer = {
         enable = true;
@@ -24,6 +23,10 @@
       ts_ls.enable = true;
       yamlls.enable = false; # sick of fighting with it and helm
       zls.enable = true;
+
+      # Python
+      basedpyright.enable = true;
+      ruff.enable = true;
     };
     keymaps = {
       silent = true;

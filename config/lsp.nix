@@ -19,7 +19,7 @@
         installRustc = true;
       };
       sqls.enable = true;
-      terraformls.enable = true;
+      terraform_lsp.enable = true;
       ts_ls.enable = true;
       yamlls.enable = false; # sick of fighting with it and helm
       zls.enable = true;

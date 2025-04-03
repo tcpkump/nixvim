@@ -1,11 +1,11 @@
 {
-  plugins.avante.enable = false;
+  plugins.avante.enable = true;
   plugins.avante.settings = {
     claude = {
       endpoint = "https://api.anthropic.com";
       max_tokens = 4096;
-      model = "claude-3-5-sonnet-20240620";
-      temperature = 0;
+      model = "claude-3-7-sonnet-latest";
+      temperature = 0.2;
     };
     diff = {
       autojump = true;

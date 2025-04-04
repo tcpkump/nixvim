@@ -5,7 +5,7 @@
     sources.diagnostics = {
       puppet_lint.enable = true;
       terragrunt_validate.enable = true;
-      tfsec.enable = true;
+      trivy.enable = true;
     };
   };
 }

@@ -25,7 +25,16 @@
       zls.enable = true;
 
       # Python
-      basedpyright.enable = true;
+      basedpyright = {
+        enable = true;
+        settings = {
+          basedpyright = {
+            analysis = {
+              typeCheckingMode = "standard";
+            };
+          };
+        };
+      };
       ruff.enable = true;
     };
     keymaps = {

@@ -7,7 +7,6 @@
         timeoutMs = 500;
       };
       formatters_by_ft = {
-        python = [ "ruff_format" ];
         go = [
           "gofmt"
           "goimports"

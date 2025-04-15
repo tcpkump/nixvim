@@ -35,7 +35,12 @@
           };
         };
       };
-      ruff.enable = true;
+      ruff = {
+        enable = true;
+        settings = {
+          line-length = 120;
+        };
+      };
     };
     keymaps = {
       silent = true;

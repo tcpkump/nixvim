@@ -12,6 +12,8 @@
     shiftwidth = 2;
     tabstop = 2;
 
+    textwidth = 120;
+
     ignorecase = true;
     incsearch = true;
     smartcase = true;

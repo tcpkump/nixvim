@@ -13,6 +13,7 @@
     tabstop = 2;
 
     textwidth = 120;
+    formatoptions = "cqj"; # Removes 't' https://neovim.io/doc/user/options.html#'formatoptions'
 
     ignorecase = true;
     incsearch = true;

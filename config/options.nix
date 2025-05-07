@@ -1,6 +1,5 @@
 {
   opts = {
-    background = "";
     updatetime = 100;
 
     spell = false;
@@ -19,6 +18,7 @@
     incsearch = true;
     smartcase = true;
     wildmode = "list:longest";
+
 
     wrap = false;
 

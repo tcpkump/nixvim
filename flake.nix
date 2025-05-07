@@ -2,7 +2,7 @@
   description = "A nixvim configuration";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     nixvim.url = "github:nix-community/nixvim";
     flake-parts.url = "github:hercules-ci/flake-parts";
   };
@@ -32,7 +32,9 @@
 
           # Add extra dependencies here
           dependencies = with pkgs; [
+            ast-grep
             lazygit
+            ripgrep
           ];
         in
         {

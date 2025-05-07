@@ -1,5 +1,6 @@
 {
   plugins.avante.enable = true;
+  plugins.nui.enable = true;
   plugins.avante.settings = {
     claude = {
       endpoint = "https://api.anthropic.com";
